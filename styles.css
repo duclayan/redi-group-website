@@ -1,0 +1,68 @@
+.box{
+    text-align: center;
+}
+.box1{
+width: 300px;
+border: 15px solid green;
+padding: 50px;
+margin: 20px;
+background-color: bisque;
+}
+.section{
+display: flex;
+flex-direction: row;
+}
+
+h2{
+align-self: center;
+}
+.headings {
+display: flex;
+flex-direction: column;
+margin: o auto;
+padding: 10px;
+border-radius: 5px;
+}
+.input{
+display: flex;
+flex-direction: column;
+padding: 12px;
+border-radius: 5px;
+color: black;
+border: 1px solid black;
+}
+.msg{
+padding: 10px;
+border: 1px solid black;
+}
+#senden{
+width: 90px;
+align-self: center;
+margin-top: 10px;
+}
+.senden:hover{
+cursor: pointer;
+box-shadow: 0 0 10px rgb(20, 1, 1);
+}
+
+.about{
+
+display: flex;
+background-color: rgb(255, 255, 255);
+border: 1px;
+justify-content: center
+
+}
+.text{ 
+font-size: larger;
+background-color: rgb(255, 255, 255);
+color: rgb(44, 112, 171);
+}
+.redi-img{
+padding: 2%;
+justify-content: start;
+height: 100px;
+max-width: 100%;
+max-height:  100%;
+
+}
